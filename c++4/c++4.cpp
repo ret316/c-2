@@ -11,10 +11,26 @@ int main()
 	for (int i = 1; i <= 1000; i++) {
 		sum = sum + i;
 	}
-	cout << "Summ —умма чисел от 1 до 100 = " << sum << endl;
+	cout << "—умма чисел от 1 до 1000 = " << sum << endl;
 	//Console::ReadLine();
-	cin.get();
+	
 	//system("pause");
+
+	int j = 0;
+	int sum1 = 0;
+	while (j<2000)
+	{
+		j++;
+		sum1 += j;
+	}
+	cout << "—умма чисел от 1 до 2000 = " << sum1 << endl;
+	int k = 0, sum2 = 0;
+	do {
+		k++;
+		sum2 += k;
+	} while (k < 3000);
+	cout << "—умма чисел от 1 до 3000 = " << sum2 << endl;
+	cin.get();
 	return 0;
 }
 
